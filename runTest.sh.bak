@@ -1,4 +1,4 @@
-projectName=Eucan
+projectName=jams
 scriptName=$projectName.jmx
 time=$(date "+%Y.%m.%d-%H.%M")
 results=PerfTest_Results_$time
