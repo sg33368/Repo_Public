@@ -1,0 +1,5 @@
+threads=10
+scheme=https
+rampup=10
+thinkTime=1000
+testDuration=300

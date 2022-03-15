@@ -1,0 +1,245 @@
+2022-03-14 07:14:19,560 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: Version 5.4.3
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: java.version=17.0.2
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: os.name=Windows Server 2019
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: os.arch=amd64
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: os.version=10.0
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: java.awt.headless=null
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-03-14 07:14:19,591 INFO o.a.j.JMeter: Available Processors =4
+2022-03-14 07:14:19,607 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-03-14 07:14:19,607 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-03-14 07:14:19,607 INFO o.a.j.JMeter: JMeterHome=C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3
+2022-03-14 07:14:19,607 INFO o.a.j.JMeter: user.dir  =C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin
+2022-03-14 07:14:19,607 INFO o.a.j.JMeter: PWD       =C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin
+2022-03-14 07:14:19,607 INFO o.a.j.JMeter: IP: 10.1.9.52 Name: SA-RSDNEOLOAD02 FullName: SA-RSDNEOLOAD02.zsservices.local
+2022-03-14 07:14:19,732 INFO o.a.j.JMeter: Setting LAF to: laf:com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2022-03-14 07:14:19,854 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-03-14 07:14:21,410 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_server_2019-8543af921e6d67568179c0cc84acbeb8-gui
+2022-03-14 07:14:22,546 WARN o.a.j.g.ObjectTableModel: Header count=13 but classes count=11
+2022-03-14 07:14:22,546 WARN o.a.j.g.ObjectTableModel: Header count=13 but writeFunctor count=11
+2022-03-14 07:14:22,791 INFO o.j.r.PluginManager: Plugins Status: [jpgc-filterresults=2.2, jpgc-plugins-manager=1.7, jpgc-synthesis=2.2, jmeter-core=5.4.3, jmeter-ftp=5.4.3, jmeter-http=5.4.3, jmeter-jdbc=5.4.3, jmeter-jms=5.4.3, jmeter-junit=5.4.3, jmeter-java=5.4.3, jmeter-ldap=5.4.3, jmeter-mail=5.4.3, jmeter-mongodb=5.4.3, jmeter-native=5.4.3, jmeter-tcp=5.4.3, jmeter-components=5.4.3]
+2022-03-14 07:15:00,030 INFO o.a.j.s.FileServer: Default base='C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin'
+2022-03-14 07:15:00,030 INFO o.a.j.g.a.Load: Loading file: C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\HTTP(S) Test Script Recorder.jmx
+2022-03-14 07:15:00,030 INFO o.a.j.s.FileServer: Set new base='C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin'
+2022-03-14 07:15:00,217 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-03-14 07:15:00,217 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-03-14 07:15:00,217 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-03-14 07:15:00,217 INFO o.a.j.s.SaveService: Loading file: C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\HTTP(S) Test Script Recorder.jmx
+2022-03-14 07:15:00,248 WARN o.j.r.p.TestPlanAnalyzer: Cannot parse file: C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\HTTP(S) Test Script Recorder.jmx
+org.xml.sax.SAXParseException: Character reference "&#x0" is an invalid XML character.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.12.0.jar:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.12.0.jar:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122) ~[?:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.getNodeListWithClassNames(TestPlanAnalyzer.java:112) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.analyze(TestPlanAnalyzer.java:37) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.analyzeTestPlan(PluginSuggester.java:51) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.findPluginsToInstall(PluginSuggester.java:44) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.checkAndSuggest(PluginSuggester.java:28) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.logging.LoggerAppender.append(LoggerAppender.java:33) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:542) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:500) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:483) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2034) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1899) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:184) ~[log4j-slf4j-impl-2.17.0.jar:2.17.0]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:428) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:129) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:101) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Load.doActionAfterCheck(Load.java:88) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.4.3]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:741) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2022-03-14 07:15:01,061 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2022-03-14 07:15:01,061 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\proxyserver.jks
+2022-03-14 07:15:01,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-14 07:15:01,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-14 07:15:01,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-14 07:15:01,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-14 07:15:01,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-03-14 07:15:01,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-03-14 07:15:01,155 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-03-14 07:15:01,155 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-03-14 07:15:01,155 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-03-14 07:15:01,155 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-03-14 07:15:01,372 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-03-14 07:15:01,841 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-03-14 07:15:01,888 INFO o.a.j.s.FileServer: Set new base='C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin'
+2022-03-14 07:22:54,455 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-14 07:22:54,455 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-14 07:22:54,455 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-14 07:22:54,455 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-03-14 07:22:54,455 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-03-14 07:22:54,502 INFO c.t.j.e.c.PropertyReader: Property file reader - loading the properties from C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\customeruser.properties
+2022-03-14 07:22:54,502 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxDBRawBackendListenerClient and queue capacity: 5000
+2022-03-14 07:22:54,518 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxDBRawBackendListenerClient
+2022-03-14 07:22:54,580 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-14 07:22:54,627 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : WEBEUCAN
+2022-03-14 07:22:54,627 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group WEBEUCAN.
+2022-03-14 07:22:54,627 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-14 07:22:54,627 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2022-03-14 07:22:54,627 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-14 07:22:54,627 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-14 07:22:59,628 INFO o.a.j.t.JMeterThread: Thread started: WEBEUCAN 1-1
+2022-03-14 07:22:59,644 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = SA-RSDNEOLOAD02
+2022-03-14 07:22:59,650 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-03-14 07:22:59,746 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-03-14 07:22:59,746 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-03-14 07:22:59,746 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-03-14 07:22:59,761 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-03-14 07:22:59,761 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-03-14 07:22:59,761 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-03-14 07:23:46,346 INFO o.a.j.t.JMeterThread: Thread is done: WEBEUCAN 1-1
+2022-03-14 07:23:46,346 INFO o.a.j.t.JMeterThread: Thread finished: WEBEUCAN 1-1
+2022-03-14 07:23:46,346 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-14 07:23:46,346 INFO o.a.j.v.b.BackendListener: Worker ended
+2022-03-14 07:23:46,346 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2022-03-14 07:23:46,352 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-14 07:28:54,510 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-14 07:28:54,510 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-14 07:28:54,530 INFO c.t.j.e.c.PropertyReader: Property file reader - loading the properties from C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\customeruser.properties
+2022-03-14 07:28:54,530 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2022-03-14 07:28:54,530 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2022-03-14 07:28:54,530 ERROR o.a.j.v.b.i.InfluxdbBackendListenerClient: Error parsing percentile: '99,95,90'
+java.lang.NumberFormatException: For input string: "99,95,90"
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122) ~[?:?]
+	at java.lang.Float.parseFloat(Float.java:476) ~[?:?]
+	at java.lang.Float.valueOf(Float.java:440) ~[?:?]
+	at org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient.initPercentiles(InfluxdbBackendListenerClient.java:377) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient.setupTest(InfluxdbBackendListenerClient.java:323) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testStarted(BackendListener.java:325) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testStarted(BackendListener.java:280) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:205) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:382) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-03-14 07:28:54,530 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-14 07:28:54,577 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : WEBEUCAN
+2022-03-14 07:28:54,577 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group WEBEUCAN.
+2022-03-14 07:28:54,577 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-14 07:28:54,577 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2022-03-14 07:28:54,577 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-14 07:28:54,577 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-14 07:28:59,578 INFO o.a.j.t.JMeterThread: Thread started: WEBEUCAN 1-1
+2022-03-14 07:29:46,803 INFO o.a.j.t.JMeterThread: Thread is done: WEBEUCAN 1-1
+2022-03-14 07:29:46,803 INFO o.a.j.t.JMeterThread: Thread finished: WEBEUCAN 1-1
+2022-03-14 07:29:46,803 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-14 07:29:46,803 INFO o.a.j.v.b.BackendListener: Worker ended
+2022-03-14 07:29:46,803 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2022-03-14 07:29:46,803 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2022-03-14 07:29:46,810 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-14 08:36:13,004 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-14 08:36:13,004 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-14 08:36:13,019 INFO c.t.j.e.c.PropertyReader: Property file reader - loading the properties from C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\customeruser.properties
+2022-03-14 08:36:13,019 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2022-03-14 08:36:13,019 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2022-03-14 08:36:13,019 ERROR o.a.j.v.b.i.InfluxdbBackendListenerClient: Error parsing percentile: '99,95,90'
+java.lang.NumberFormatException: For input string: "99,95,90"
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122) ~[?:?]
+	at java.lang.Float.parseFloat(Float.java:476) ~[?:?]
+	at java.lang.Float.valueOf(Float.java:440) ~[?:?]
+	at org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient.initPercentiles(InfluxdbBackendListenerClient.java:377) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient.setupTest(InfluxdbBackendListenerClient.java:323) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testStarted(BackendListener.java:325) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testStarted(BackendListener.java:280) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:205) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:382) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-03-14 08:36:13,019 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-03-14 08:36:13,065 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : WEBEUCAN
+2022-03-14 08:36:13,065 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group WEBEUCAN.
+2022-03-14 08:36:13,065 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-14 08:36:13,065 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2022-03-14 08:36:13,065 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-14 08:36:13,065 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-14 08:36:18,066 INFO o.a.j.t.JMeterThread: Thread started: WEBEUCAN 1-1
+2022-03-14 08:37:03,932 INFO o.a.j.t.JMeterThread: Thread is done: WEBEUCAN 1-1
+2022-03-14 08:37:03,932 INFO o.a.j.t.JMeterThread: Thread finished: WEBEUCAN 1-1
+2022-03-14 08:37:03,934 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-14 08:37:03,934 INFO o.a.j.v.b.BackendListener: Worker ended
+2022-03-14 08:37:03,935 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2022-03-14 08:37:03,936 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2022-03-14 08:37:03,942 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-03-14 12:14:54,348 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-03-14 12:14:54,379 INFO o.a.j.g.a.Load: Loading file: C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\Eucan.jmx
+2022-03-14 12:14:54,379 INFO o.a.j.s.FileServer: Set new base='C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin'
+2022-03-14 12:14:54,379 INFO o.a.j.s.SaveService: Loading file: C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\Eucan.jmx
+2022-03-14 12:14:54,395 WARN o.j.r.p.TestPlanAnalyzer: Cannot parse file: C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin\Eucan.jmx
+org.xml.sax.SAXParseException: Character reference "&#x0" is an invalid XML character.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.12.0.jar:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.12.0.jar:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122) ~[?:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.getNodeListWithClassNames(TestPlanAnalyzer.java:112) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.analyze(TestPlanAnalyzer.java:37) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.analyzeTestPlan(PluginSuggester.java:51) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.findPluginsToInstall(PluginSuggester.java:44) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.checkAndSuggest(PluginSuggester.java:28) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.logging.LoggerAppender.append(LoggerAppender.java:33) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:542) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:500) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:483) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161) ~[log4j-core-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2034) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1899) ~[log4j-api-2.17.0.jar:2.17.0]
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:184) ~[log4j-slf4j-impl-2.17.0.jar:2.17.0]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:428) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:129) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:101) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.Load.doActionAfterCheck(Load.java:88) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.4.3]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:741) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2022-03-14 12:14:54,473 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-03-14 12:14:54,707 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-03-14 12:14:54,739 INFO o.a.j.s.FileServer: Set new base='C:\Users\pa_sg33368\Downloads\apache-jmeter-5.4.3\apache-jmeter-5.4.3\bin'
