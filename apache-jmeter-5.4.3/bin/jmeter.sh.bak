@@ -94,6 +94,7 @@ MINIMAL_VERSION=8
 
 # Check if version is from OpenJDK or Oracle Hotspot JVM prior to 9 containing 1.${version}.x
 CURRENT_VERSION=`"${JAVA_HOME}/bin/java" -version 2>&1 | awk -F'"' '/version/ {gsub("^1[.]", "", $2); gsub("[^0-9].*$", "", $2); print $2}'`
+echo $JAVA_HOME
 echo $CURRENT_VERSION
 echo $MINIMAL_VERSION
 # Check if Java is present and the minimal version requirement
