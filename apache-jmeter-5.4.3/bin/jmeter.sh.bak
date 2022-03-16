@@ -94,7 +94,8 @@ MINIMAL_VERSION=8
 
 # Check if version is from OpenJDK or Oracle Hotspot JVM prior to 9 containing 1.${version}.x
 CURRENT_VERSION=`"${JAVA_HOME}/bin/java" -version 2>&1 | awk -F'"' '/version/ {gsub("^1[.]", "", $2); gsub("[^0-9].*$", "", $2); print $2}'`
-
+echo $CURRENT_VERSION
+echo $MINIMAL_VERSION
 # Check if Java is present and the minimal version requirement
 if [ "$CURRENT_VERSION" -gt "$MINIMAL_VERSION" ]; then
     JAVA9_OPTS="--add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens java.desktop/sun.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED"
